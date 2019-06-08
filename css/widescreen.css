@@ -1,0 +1,10 @@
+@media screen and (min-width: 550px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}

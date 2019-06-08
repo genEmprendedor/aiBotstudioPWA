@@ -1,0 +1,71 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Roboto");
+
+/* Variables */
+:root {
+  --primary-color: #d3a1a1;
+  --secondary-color: #f99500;
+  --light-color: #f4f4f4; /* #f3f3f3 */
+  --dark-color: #333; /* #333 */
+  --logo-color: gold;
+  --max-width: 95vw;
+}
+
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navbar */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.main-nav {
+  margin-top: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a,
+.main-nav a {
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
