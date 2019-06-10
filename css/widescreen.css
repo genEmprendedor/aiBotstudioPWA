@@ -68,4 +68,22 @@
     font-size: 2.5vw;
     margin-bottom: 1rem;
   }
+
+  /* Highlight */
+  .highlight-container {
+    max-width: 1079px;
+  }
+  #highlight .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  .box-1,
+  .box-2 {
+    /*background-color: rgba(255, 255, 255, 0.8); */
+    padding: 20px;
+    text-align: center;
+  }
 }
