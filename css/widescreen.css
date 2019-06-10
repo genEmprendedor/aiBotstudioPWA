@@ -71,18 +71,15 @@
 
   /* Header */
   .header-container {
+    margin: auto;
+    width: 85%;
     height: 50vh;
-    width: 1079px;
-    display: flex;
-    flex-direction: column;
   }
 
   .benefits-header {
     background: grey;
     background-image: url(https://images.unsplash.com/photo-1549145159-2f1242ce0975?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80);
     height: 100%;
-    max-width: 80.75%;
-    margin-left: 4.8rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
