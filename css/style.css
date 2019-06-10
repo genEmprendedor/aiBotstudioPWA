@@ -314,10 +314,10 @@ a {
 
 #learn .item1 {
   background-image: url(https://cdn.pixabay.com/photo/2019/01/16/20/52/chatbot-3936760_960_720.jpg);
-  height: 100%; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #learn .item1 h3 {

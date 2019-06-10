@@ -69,9 +69,23 @@
     margin-bottom: 1rem;
   }
 
+  /* Header */
+  .header {
+    height: 100vh;
+  }
+
+  .benefits-header {
+    background: grey;
+    background-image: url(https://images.unsplash.com/photo-1549145159-2f1242ce0975?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   /* Highlight */
   .highlight-container {
-    max-width: 1079px;
+    max-width: 85%;
   }
   #highlight .row {
     display: grid;
@@ -82,14 +96,25 @@
 
   .box-1,
   .box-2 {
-    /*background-color: rgba(255, 255, 255, 0.8); */
     padding: 20px;
     text-align: center;
   }
 
+  #highlight h2 {
+    font-size: 3rem;
+  }
+
+  #highlight i {
+    font-size: 3rem;
+  }
+
+  #highlight p {
+    font-size: 1.75rem;
+  }
+
   /* Benefits */
   .benefits-container {
-    max-width: 1079px;
+    max-width: 85%;
   }
 
   .items-benefit {
@@ -97,5 +122,41 @@
     grid-template-rows: auto auto;
     gap: 1rem;
     padding: 10px;
+  }
+
+  #benefits h2 {
+    font-size: 3rem;
+  }
+
+  #benefits i {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  #benefits h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #benefits p {
+    font-size: 1.25rem;
+  }
+
+  .form-box {
+    max-width: 85%;
+    border: none;
+  }
+
+  .footer-container {
+    max-width: 85%;
+  }
+  .hline {
+    display: none;
+  }
+  #footer p {
+    font-size: 1.5rem;
+  }
+  #footer .madeby {
+    font-size: 0.85rem;
   }
 }
