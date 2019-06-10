@@ -115,6 +115,15 @@
   }
 
   /* Benefits */
+  .features-header {
+    background: grey;
+    background-image: url(https://images.unsplash.com/photo-1533915828531-55b274d98dc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .benefits-container {
     max-width: 85%;
   }
@@ -143,6 +152,50 @@
   #benefits p {
     font-size: 1.25rem;
   }
+
+  /* Features */
+  .features-container {
+    max-width: 85%;
+  }
+
+  .grid-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  #features p {
+    text-align: left;
+  }
+
+  /* Highlight */
+  .partner-container {
+    max-width: 85%;
+  }
+
+  #highlight .tech-title {
+    font-size: 2rem;
+  }
+
+  #highlight .row {
+    display: flex;
+
+    justify-content: space-evenly;
+  }
+
+  #highlight .row p {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* Pricing */
+  .pricing-container {
+    max-width: 85%;
+  }
+  /* FAQ */
+  /* Learn */
 
   /* Contact form */
   .form-box {
