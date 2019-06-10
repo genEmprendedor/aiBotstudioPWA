@@ -147,11 +147,14 @@
     font-size: 1.25rem;
   }
 
+  /* Contact form */
   .form-box {
     max-width: 85%;
     border: none;
+    background-color: antiquewhite;
   }
 
+  /* Footer */
   .footer-container {
     max-width: 85%;
   }
