@@ -86,4 +86,16 @@
     padding: 20px;
     text-align: center;
   }
+
+  /* Benefits */
+  .benefits-container {
+    max-width: 1079px;
+  }
+
+  .items-benefit {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    padding: 10px;
+  }
 }
