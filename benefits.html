@@ -153,11 +153,11 @@
       </div>
     </section>
     <!-- End of page content -->
-    <!-- Contact Form -->
 
+    <!-- Contact Form -->
     <div class="form-box">
       <h3>Let's Talk</h3>
-      <form action="#" method="#">
+      <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
         <label for="name">Name</label>
         <input id="name" type="text" name="Name" />
 
@@ -166,6 +166,11 @@
 
         <label for="message">Message</label>
         <textarea id="message" name="Message"></textarea>
+
+        <!-- ReCapcha-->
+        <div class="recapcha">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
         <input class="form-btn" type="submit" value="Submit" />
       </form>
     </div>
