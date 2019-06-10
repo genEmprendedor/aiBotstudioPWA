@@ -234,6 +234,21 @@
 }
 
 /* Learn */
+.learn-container {
+  max-width: 85%;
+}
+
+#learn .learn-container {
+  background: none;
+}
+#learn .learn-container h2,
+p {
+  color: #000;
+}
+
+.blog-container {
+  max-width: 85%;
+}
 
 /* Contact form */
 .form-box {
@@ -251,7 +266,11 @@
 }
 #footer p {
   font-size: 1.5rem;
+  color: #fff;
+  margin-top: 0.75rem;
 }
 #footer .madeby {
   font-size: 0.85rem;
+  margin-top: -0.25rem;
+  margin-bottom: 0.5rem;
 }
