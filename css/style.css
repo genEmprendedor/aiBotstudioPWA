@@ -306,6 +306,8 @@ a {
   font-size: 30px;
 }
 
+/* Item 1 */
+
 #learn .item1 {
   background-image: url(https://cdn.pixabay.com/photo/2019/01/16/20/52/chatbot-3936760_960_720.jpg);
   height: 100%; /* You must set a specified height */
@@ -335,6 +337,74 @@ a {
 }
 
 #learn .item1 .blog-btn:hover {
+  background: var(--primary-color);
+  color: black;
+}
+
+/* Item 2 */
+#learn .item2 {
+  background-image: url(https://www.kommunicate.io/blog/wp-content/uploads/2019/05/Customer-loyalty.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#learn .item2 h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -1rem;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+#learn .item2 h6 {
+  font-size: 0.75rem;
+  margin-top: -1rem;
+  text-shadow: 0.5px 0.5px white;
+}
+
+#learn .item2 .blog-btn {
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 0.25rem;
+  border-radius: 15%;
+}
+
+#learn .item2 .blog-btn:hover {
+  background: var(--primary-color);
+  color: black;
+}
+
+/* Item 3 */
+#learn .item3 {
+  background-image: url(https://cdn-images-1.medium.com/max/2400/1*_7HZq1TGL57UeI3SeAICkQ.jpeg);
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#learn .item3 h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -1rem;
+  color: yellow;
+  text-shadow: 2px 2px black;
+}
+#learn .item3 h6 {
+  font-size: 0.75rem;
+  margin-top: -1rem;
+  text-shadow: 0.5px 0.5px white;
+}
+
+#learn .item3 .blog-btn {
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 0.25rem;
+  border-radius: 15%;
+}
+
+#learn .item3 .blog-btn:hover {
   background: var(--primary-color);
   color: black;
 }
