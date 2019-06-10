@@ -191,9 +191,35 @@
   }
 
   /* Pricing */
+  .pricing-header {
+    background: grey;
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/24/16/18/binary-1538717_1280.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   .pricing-container {
     max-width: 85%;
   }
+
+  .pricing-table {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid #000;
+    grid-gap: 1px;
+    justify-self: center; 
+    max-width: 75vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  }
+
+  #pricing .title {
+    color: red;
+  }
+
   /* FAQ */
   /* Learn */
 
