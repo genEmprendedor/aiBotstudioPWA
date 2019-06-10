@@ -1,3 +1,6 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Roboto");
+
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
   --secondary-color: rgba(229, 148, 0, 0.9);
@@ -14,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Optional, sans-serif;
   line-height: 1.4;
 }
 
