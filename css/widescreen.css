@@ -45,15 +45,27 @@
   .btn {
     display: inline-block;
     border: none;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: #fff;
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
     transition: opacity 1s ease-in-out;
     text-decoration: none;
+    border-radius: 5%;
   }
 
   .btn:hover {
     opacity: 0.7;
+  }
+
+  #showcase h1 {
+    font-family: "Libre Barcode 128 Text";
+    font-size: 15vw;
+    margin-bottom: 1.5rem;
+  }
+
+  #showcase p {
+    font-size: 2.5vw;
+    margin-bottom: 1rem;
   }
 }
