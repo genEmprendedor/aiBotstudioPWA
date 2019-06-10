@@ -221,6 +221,18 @@
 }
 
 /* FAQ */
+.faq-container {
+  max-width: 85%;
+}
+
+#faq .item {
+  margin-top: 2rem;
+}
+
+#faq h3 {
+  text-align: left;
+}
+
 /* Learn */
 
 /* Contact form */
