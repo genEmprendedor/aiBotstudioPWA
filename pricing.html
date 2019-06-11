@@ -19,6 +19,12 @@
 
     <link
       rel="stylesheet"
+      media="screen and (max-width:549px)"
+      href="css/style.css"
+    />
+
+    <link
+      rel="stylesheet"
       media="screen and (min-width:550px)"
       href="css/widescreen.css"
     />
@@ -72,49 +78,39 @@
 
     <!-- Pricing -->
     <section id="pricing">
-      <div class="container pricing-container">
+      <div class="pricing-container">
         <h2>Clear and Simple Pricing</h2>
         <h3>No contracts | Cancel anytime</h3>
-
-        <div class="hline"></div>
-
-        <div class="pricing-table">
-          <div class="pricing-box">
-            <p class="title">FAQ Bot + Human</p>
-            <span class="price">$110/month</span>
-            <p class="description">Small business empowerment</p>
-            <span class="pricing-table-divider"></span>
-            <ul>
-              <li>Turn-key chatbot</li>
-              <li>Live chat</li>
-              <li>Conversation routing</li>
+        <div class="grid-columns">
+          <div class="columns">
+            <ul class="price">
+              <li class="header">FAQ Bot + Human</li>
+              <li class="grey">$ 110 / month</li>
               <li>FAQs</li>
-              <li>Social Media integrations</li>
+              <li>Live chat</li>
+              <li>Turn-key chatbot</li>
               <li>Website chat widget</li>
+              <li>Conversation routing</li>
+              <li>Social Media integrations</li>
               <li>Advanced chatbot analytics</li>
+
+              <li class="grey"><a href="#" class="button">Sign Up</a></li>
             </ul>
-            <span class="pricing-table-divider"></span>
-            <a class="btn" href="#footer"><b>Sign Up</b></a>
-            <span class="pricing-table-divider"></span>
           </div>
-
-          <div class="pricing-box box-2">
-            <p class="title">Advanced Bot + Human</p>
-            <span class="price">$160/month</span>
-            <p class="description">Maximum Value</p>
-            <span class="pricing-table-divider"></span>
-
-            <ul>
+          <!-- 2nd Column-->
+          <div class="columns">
+            <ul class="price">
+              <li class="header">Advanced Bot + Human</li>
+              <li class="grey">$ 160 / month</li>
               <li>All FAQ Bot features</li>
-              <li>Calendar booking</li>
-              <li>Chatbot website</li>
-              <li>Business website</li>
-              <li>Chatbot domain name</li>
               <li>Database management</li>
+              <li>Chatbot domain name</li>
+              <li>Business website</li>
+              <li>Chatbot website</li>
+              <li>Calendar booking</li>
               <li>Cancel anytime</li>
+              <li class="grey"><a href="#" class="button">Sign Up</a></li>
             </ul>
-            <span class="pricing-table-divider"></span>
-            <a class="btn" href="#"><b>Sign Up</b></a>
           </div>
         </div>
       </div>
@@ -122,24 +118,26 @@
     <!-- End of page content -->
 
     <!-- Contact Form -->
-    <div class="form-box">
-      <h3>Let's Talk</h3>
-      <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
-        <label for="name">Name</label>
-        <input id="name" type="text" name="Name" />
+    <div id="form" class="form-container">
+      <div class="form-box">
+        <h3>Let's Talk</h3>
+        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="Name" />
 
-        <label for="email">Email</label>
-        <input id="email" type="email" name="Email" />
+          <label for="email">Email</label>
+          <input id="email" type="email" name="Email" />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="Message"></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" name="Message"></textarea>
 
-        <!-- ReCapcha-->
-        <div class="recapcha">
-          <div data-netlify-recaptcha="true"></div>
-        </div>
-        <input class="form-btn" type="submit" value="Submit" />
-      </form>
+          <!-- ReCapcha-->
+          <div class="recapcha">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <input class="form-btn" type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
 
     <!-- Footer -->
